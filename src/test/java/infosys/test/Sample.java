@@ -46,6 +46,12 @@ public class Sample {
 		driver.findElement(By.id("email")).sendKeys("Akshu");
 		driver.findElement(By.id("pass")).sendKeys("GodisGreat");
 		driver.findElement(By.name("login")).click();
+		driver.findElement(By.id("email")).sendKeys("Siva");
+		driver.findElement(By.id("pass")).sendKeys("Greatthings");
+		driver.findElement(By.name("login")).click();
+		
+		
+		
 
 	}
 }
